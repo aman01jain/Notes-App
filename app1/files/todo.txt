@@ -1,0 +1,7 @@
+scrap
+pub
+alien
+gamer
+player
+rider provider
+new user
