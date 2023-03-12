@@ -14,7 +14,7 @@ while True:
         write_todo(todos)
 
     elif user_action.startswith("show"):
-        todos = get_todos('files/todo.txt')
+        todos = get_todos('todo.txt')
         for i, item in enumerate(todos):
             item = item.strip('\n')
             item = item.title()
