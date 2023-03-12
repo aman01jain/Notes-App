@@ -9,7 +9,7 @@ if not os.path.exists("todo.txt"):
 
 sg.theme("BlueMono")
 
-clock = sg.Text('',key='clock')
+clock = sg.Text(key='clock')
 label = sg.Text("Enter a To-Do")
 input_text = sg.InputText(tooltip="Enter a todo", key="todo")
 add_button = sg.Button("Add", size=10)
